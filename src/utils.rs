@@ -43,11 +43,11 @@ pub mod utils {
             Field{data: Grid::from_vec(vec, cols)}
         }
 
-        pub fn neighbors4(&self, coord: (usize, usize)) -> NeighborsIterator<T> {
+        pub fn neighbors4(&self, coord: (usize, usize)) -> NeighborsIterator<'_, T> {
             NeighborsIterator {field: &self, coord, direction_i: 0, directions: DIRECTION4}
         }
 
-        pub fn neighbors8(&self, coord: (usize, usize)) -> NeighborsIterator<T> {
+        pub fn neighbors8(&self, coord: (usize, usize)) -> NeighborsIterator<'_, T> {
             NeighborsIterator {field: &self, coord, direction_i: 0, directions: DIRECTION8}
         }
     }
