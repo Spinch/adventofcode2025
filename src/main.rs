@@ -16,7 +16,7 @@ fn run_day(day: Option<usize>, input_file: Option<&str>) {
     solutions.insert(7, &ac2025::day07::run);
     solutions.insert(8, &ac2025::day08::run);
     // solutions.insert(9, &ac2025::day09::run);
-    // solutions.insert(10, &ac2025::day10::run);
+    solutions.insert(10, &ac2025::day10::run);
     // solutions.insert(11, &ac2025::day11::run);
     // solutions.insert(12, &ac2025::day12::run);
     // solutions.insert(13, &ac2025::day13::run);
