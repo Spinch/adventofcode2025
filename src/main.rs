@@ -18,20 +18,7 @@ fn run_day(day: Option<usize>, input_file: Option<&str>) {
     solutions.insert(9, &ac2025::day09::run);
     solutions.insert(10, &ac2025::day10::run);
     solutions.insert(11, &ac2025::day11::run);
-    // solutions.insert(12, &ac2025::day12::run);
-    // solutions.insert(13, &ac2025::day13::run);
-    // solutions.insert(14, &ac2025::day14::run);
-    // solutions.insert(15, &ac2025::day15::run);
-    // solutions.insert(16, &ac2025::day16::run);
-    // solutions.insert(17, &ac2025::day17::run);
-    // solutions.insert(18, &ac2025::day18::run);
-    // solutions.insert(19, &ac2025::day19::run);
-    // solutions.insert(20, &ac2025::day20::run);
-    // solutions.insert(21, &ac2025::day21::run);
-    // solutions.insert(22, &ac2025::day22::run);
-    // solutions.insert(23, &ac2025::day23::run);
-    // solutions.insert(24, &ac2025::day24::run);
-    // solutions.insert(25, &ac2025::day25::run);
+    solutions.insert(12, &ac2025::day12::run);
 
     let day = match day {
         Some(x) => x,
